@@ -27,6 +27,7 @@ gulp.task('dist-remove', function () {
 gulp.task('dist-copy-files', function() {
   return gulp.src([
     './css/**/*',
+    './lib/*/dist/**/*',
     './index.html',
     './package.json'
   ], { base: './' }).pipe(gulp.dest(config.release));

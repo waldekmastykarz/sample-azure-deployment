@@ -1,0 +1,22 @@
+{
+  "name": "sample-azure-deployment",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Waldek Mastykarz"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/waldekmastykarz/sample-azure-deployment",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
